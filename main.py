@@ -34,7 +34,7 @@ class Face_Recognization_System:
         f_lbl.place(x=640,y=0,width=320,height=130)
         
 # bg img 
-        img3=Image.open(r"D:\python face project\images\bgimg.jpg")
+        img3=Image.open(r"D:\python face project\images\bgimg.png")
         img3=img3.resize((1280,720),Image.ADAPTIVE)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
