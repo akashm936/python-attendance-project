@@ -4,6 +4,7 @@ from PIL import Image,ImageTk
 
 
 
+
 class Face_Recognization_System:
     def __init__(self,root):
         self.root=root
